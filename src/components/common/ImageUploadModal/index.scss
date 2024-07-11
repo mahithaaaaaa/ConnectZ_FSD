@@ -1,0 +1,18 @@
+.upload-main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    .upload-btn{
+        font-size: 13px;
+        font-weight: 500;
+        padding: 5px;
+        cursor: pointer;
+        border: 1px solid #585858;
+        border-radius: 5px;
+        color: black;
+    }
+    .upload-btn:hover{
+        background-color: #dfdfdf;
+    }
+}

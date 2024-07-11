@@ -1,0 +1,75 @@
+.profile-card{
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    .edit-btn{
+        position: absolute;
+        right: 2%;
+        .edit-icon{
+            color: rgb(120, 120, 120);;
+            cursor: pointer;
+            padding: 10px;
+        }
+        .edit-icon:hover{
+            color: black;
+            background-color: #dedede;
+            border-radius: 50%;
+        }
+    }
+    .profile-edit-inputs{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        label{
+            margin-top: 10px;
+            margin-left: min(-200px,-36%);
+            font-size: 12px;
+        }
+        .profile-edit-input{
+            width: 40%;
+            min-width: 250px;
+            height: 30px;
+            background-color: #ebeaea;
+            border: 1px solid #b7b7b7;
+            border-radius: 100px;
+            padding-left: 15px;
+            color: black;
+            margin-top: 0;
+        }
+        .profile-edit-input:focus{
+            background-color: white;
+            //border: 1px solid #2db4fd !important; //should look into
+        }
+        .profile-edit-textarea{
+            width: 40%;
+            min-width: 250px;
+            background-color: #ebeaea;
+            border: 1px solid #b7b7b7;
+            border-radius: 20px;
+            padding-left: 15px;
+            color: black;
+            margin-top: 0;
+        }
+        .profile-edit-textarea:focus{
+            background-color: white;
+        }
+    }
+    .submit-btn {
+        margin-top: 20px;
+        width: 150px;
+        height: 35px;
+        outline: none;
+        border: 1px solid #212121;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #0077b5;
+    }
+    .submit-btn:hover {
+        filter: brightness(90%);
+    }
+}

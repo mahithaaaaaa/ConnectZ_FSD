@@ -1,0 +1,70 @@
+.posts-card{
+    margin: 10px;
+    border: 1px solid #b7b7b7;
+    border-radius: 7px;
+    width: 550px;
+    //width: max(250%,400px);
+    height: auto;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    //justify-content: center;
+    //align-items: center;
+    .post-info-outer{
+        display: flex;
+        gap: 5px;
+        .action-container{
+            margin-left: 50%;
+            margin-top: 5px;
+            .action-icon{
+                color: rgb(120, 120, 120);
+                cursor: pointer;
+                padding: 5px;
+                border-radius: 50%;
+            }
+            .action-icon:hover{
+                color: black;
+                background-color: #dedede;
+            }
+        }
+        .profile-image{
+            object-fit: contain;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            padding-left: 5px;
+            padding-top: 5px;
+        }
+        .name{
+            font-size: 12px;
+            margin: 10px 0 0 10px;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .name:hover{
+            color: #028cd6;
+        }
+        .time-stamp{
+            text-align: left;
+            font-size: 12px;
+            color: #8e8e8e;
+            margin: 0 0 0 10px;
+        }
+    }
+    .status{
+        text-align: left;
+        font-size: 14px;
+        margin: 10px 0 10px 10px;
+    }
+    .post-image-outer{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        .post-image{
+            width: 50%;
+            margin-bottom: 10px;
+            cursor: pointer;
+        }
+        
+    }
+}

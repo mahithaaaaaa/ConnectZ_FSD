@@ -1,0 +1,109 @@
+.like-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    margin-top: -10px;
+    .likes-count{
+        margin-top: 0;
+        margin-bottom: 0;
+        padding-left: 5px;
+        font-size: 12px;
+        color: #7a7a7a;
+    }
+    .hr-outer{
+        padding: 0;
+        margin: 0;
+        hr{
+            border: 1px solid #d9d9d9;
+            margin-bottom: 0;
+        }
+    }
+    .likes-comments{
+        display: grid;
+        grid-template-columns: auto auto auto auto;
+        margin-top: 5px;
+
+        .like-comments-outer{
+            display: flex;
+            justify-content: center;
+            align-self: start;
+            padding: 5px;
+            cursor: pointer;
+            .liked{
+                font-size: 14px;
+                font-weight: 400;
+                padding-right: 5px;
+                color: #0a66c2;
+            }
+            .not-liked{
+                font-size: 14px;
+                font-weight: 400;
+                padding-right: 5px;
+            }
+            .like-icon-clicked{
+                color: #0a66c2;
+            }
+        }
+    
+    }
+    .comment-outer{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 5px;
+        .comment-input{
+            width: 87%;
+            height: 30px;
+            background-color: white;
+            border-radius: 30px;
+            text-align: left;
+            color: black;
+            border: 1px solid #b7b7b7;
+            cursor: pointer;
+            padding-left: 10px;
+        }
+        .comment-input:hover{
+            background-color: rgb(234, 234, 234);
+        }
+        .comment-send-icon{
+            color: #7a7a7a;
+            margin-left: 5px;
+            cursor: pointer;
+        }
+        .comment-send-icon:hover{
+            color: #0a66c2;
+        }
+    }
+    .all-comments{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        background-color: #eaeaea;
+        padding: 6px;
+        border-radius: 5px;
+        position: relative;
+        .comment-name{
+            font-size: 11px;
+            margin: 0;
+            text-decoration: underline;
+            cursor: pointer;
+        }
+        .comment-name:hover{
+            color: #028cd6;
+        }
+        .comment-value{
+            font-size: 13px;
+            margin: 0;
+            margin-top: 2px;
+        }
+        .comment-time{
+            font-size: 9px;
+            margin: 0;
+            color: #7a7a7a;
+            position: absolute;
+            right: 10px;
+        }
+    }
+}

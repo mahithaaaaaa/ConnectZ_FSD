@@ -1,0 +1,44 @@
+.grid-child{
+    border: 1px solid #b7b7b7;
+    width: 200px;
+    height: 200px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 7px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .picture{
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        cursor: pointer;
+    }
+    .name{
+        font-size: 15px;
+        font-weight: 600;
+        margin-bottom: 0;
+    }
+    .headline{
+        font-size: 12px;
+        margin-top: 0;
+    }
+    .btn {
+        width: 100px;
+        height: 27px;
+        border-radius: 20px;
+        cursor: pointer;
+        background-color: #0077b5;
+        border: none;
+    }
+    .btn:hover {
+        filter: brightness(70%);
+    }
+    :disabled{
+        color: black;
+        cursor:not-allowed;
+    }
+}

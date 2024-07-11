@@ -1,0 +1,28 @@
+.modal-input{
+    width: 100%;
+    outline: none;
+    border: none;
+    background-color: white;
+    color: black;
+    resize: none;
+}
+.picture-icon{
+    color: rgb(0, 115, 255);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 15px;
+}
+.picture-icon:hover{
+    background-color: #dedede;
+}
+.preview-image{
+    width: 100px;
+}
+.post-inner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

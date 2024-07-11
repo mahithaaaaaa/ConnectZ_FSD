@@ -1,0 +1,105 @@
+.profile-card{
+    width: auto;
+    height: auto;
+    background-color: white;
+    margin: 30px;
+    border-radius: 5px;
+    padding: 20px;
+    position: relative;
+    z-index: -1;
+    .edit-btn{
+        position: absolute;
+        right: 2%;
+        .edit-icon{
+            color: rgb(120, 120, 120);
+            padding: 10px;
+            cursor: pointer;
+        }
+        .edit-icon:hover{
+            color: black;
+            background-color: #dedede;
+            border-radius: 50%;
+        }
+    }
+    .connect-btn{
+        .connected{
+            padding: 10px;
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 20px;
+            border-radius: 20px;
+            background-color: #0077b5;
+            cursor:not-allowed;
+        }
+        .connect{
+            padding: 10px;
+            padding-left: 20px;
+            margin-left: 20px;
+            padding-right: 20px;
+            border-radius: 20px;
+            background-color: #0077b5;
+            cursor: pointer;
+        }
+        :disabled{
+            color: black;
+            cursor:not-allowed;
+        }
+    }
+    .profile-picture{
+        width: 230px;
+        height: 230px;
+        border-radius: 50%;
+        border: 2px solid #b7b7b7;
+        padding: 5px;
+        object-fit:contain;
+        cursor: pointer;
+    }
+    .user-name{
+        font-weight: 600;
+        font-size: 24px;
+        padding: 0;
+        margin: 0;
+        margin-top: 20px;
+    }
+    .user-email{
+        margin: 0;
+    }
+    .details-outer{
+        display: flex;
+        gap: 15%;
+        color: black;
+        .user-details{
+            font-weight: 400;
+            margin: 5px;
+        }
+        .details-left{
+            font-size: 14px;
+            width: 30%;
+            .user-role{
+                font-weight: 600;
+                font-size: 16px;
+            }
+        }
+        .details-right{
+            padding-top: 30px;
+            font-size: 16px;
+        }
+    }
+    .user-role{
+        font-weight: 600;
+        font-size: 16px;
+    }
+    .headings{
+        font-weight: 600;
+        font-size: 16px;
+        padding: 0;
+        margin: 0;
+        margin-bottom: -15px;
+    }
+}
+.profile-posts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

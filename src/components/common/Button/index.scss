@@ -1,0 +1,16 @@
+.common-btn{
+    width: 90%;
+    height: 30px;
+    color: #028cd6;
+    border: 1.5px solid #028cd6;
+    background-color: white;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 500;
+    margin: 3px;
+}
+.common-btn:hover{
+    background-color: #29b2fc2e;
+    filter: brightness(90%);
+}

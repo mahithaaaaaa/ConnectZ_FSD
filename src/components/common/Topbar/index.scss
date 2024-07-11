@@ -1,0 +1,78 @@
+.topbar-main{
+    width: 100%;
+    height: 70px;
+    background-color: rgba(255,255,255, 0.87);
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+.reactIcons{
+    margin-left: 12%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 50%;
+}
+.LinkedinLogo {
+    width: 70px;
+    margin-top: 0;
+    margin-left: 20px;
+}
+.popup-position {
+    position: absolute;
+    right: 10px;
+    top: 65px;
+    z-index: 99;
+  }
+.react-icon{
+    color: rgb(120, 120, 120);
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 50%;
+}
+.react-icon:hover{
+    color: black;
+    background-color: #dedede;
+}
+.user-icon{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+    position: absolute;
+    right: 2%;
+    cursor: pointer;
+}
+.search-results{
+    width: 250px;
+    height: auto;
+    background-color: white;
+    position: absolute;
+    left: 15%;
+    top: 80px;
+    border: 1px solid #b7b7b7;
+    border-radius: 7px;
+    .search-result{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        border: 1px solid #dedede;
+        margin: 5px;
+        border-radius: 5px;
+        cursor: pointer;
+        p{
+            font-size: 14px;
+        }
+        .search-profile-pic{
+            width: 40px;
+            height: 40px;
+            object-fit: cover;
+            margin-left: 5px;
+            margin-right: 10px;
+            border-radius: 50%;
+        }
+    }
+    .search-result:hover{
+        background-color: #dedede;
+    }
+}

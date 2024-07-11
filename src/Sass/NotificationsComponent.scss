@@ -1,0 +1,94 @@
+.notifications-outer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .notifications-main{
+        width: 90%;
+        display: flex;
+        flex-direction: row;
+        margin-top: 30px;
+        .requests{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                display: flex;
+                justify-content: center;
+                background-color: white;
+                border-radius: 10px;
+                border: 1px solid #b7b7b7;
+                width: 90%;
+            }
+            .request-outer{
+                margin: 10px;
+                border: 1px solid #b7b7b7;
+                border-radius: 10px;
+                padding: 10px;
+                width: 80%;
+                background-color: white;
+                display: flex;
+                flex-direction: column;
+                position: relative;
+                p{
+                    margin: 0;
+                    font-size: 16px;
+                    font-weight: 400;
+                }
+                span{
+                    color: #028cd6;
+                    text-decoration: underline;
+                    cursor: pointer;
+                }
+                .you{
+                    text-decoration: none;
+                    color: black;
+                    cursor: none;
+                }
+                .btns{
+                    display: flex;
+                    justify-content: start;
+                    margin: 10px;
+                    gap: 20px;
+                    .btn {
+                        width: 100px;
+                        height: 27px;
+                        border-radius: 20px;
+                        cursor: pointer;
+                        background-color: #028cd6;
+                        border: none;
+                    }
+                    .btn:hover {
+                        filter: brightness(70%);
+                    }
+                }
+                .action-icon{
+                    color: rgb(120, 120, 120);
+                    cursor: pointer;
+                    padding: 5px;
+                    border-radius: 50%;
+                    position: absolute;
+                    right: 10px;
+                }
+                .action-icon:hover{
+                    color: black;
+                    background-color: #dedede;
+                }
+            }
+        }
+        .notifications{
+            flex:1;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            .title{
+                display: flex;
+                justify-content: center;
+                background-color: white;
+                border-radius: 10px;
+                border: 1px solid #b7b7b7;
+                width: 90%;
+            }
+        }
+    }
+}
